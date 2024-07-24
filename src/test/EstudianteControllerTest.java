@@ -2,8 +2,8 @@ package test;
 
 import org.junit.jupiter.api.Test;
 
-import main.controllers.EstudianteController;
-import main.models.Estudiante;
+import main.Controlador.EstudianteController;
+import main.Modelo.Estudiante;
 
 import java.util.List;
 import java.util.Map;
@@ -29,4 +29,5 @@ public class EstudianteControllerTest {
         assertEquals(2, categorias.get("B").size());
         assertEquals(2, categorias.get("C").size());
     }
+    
 }
